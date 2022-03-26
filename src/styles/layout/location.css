@@ -1,0 +1,19 @@
+.location {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  color: var(--color-black);
+}
+.location__title {
+  margin: 2rem 0;
+}
+
+.location__map {
+  border-radius: 2rem;
+}
+.location__contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}

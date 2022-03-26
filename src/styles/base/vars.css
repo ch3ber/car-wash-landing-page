@@ -1,0 +1,24 @@
+:root {
+  --color-background: #1d3557;
+  --color-background-light: #457b9d;
+  --color-primary: #a8dadc;
+  --color-secondary: #e63946;
+  --color-accents: #77ABBD;
+  --color-white: #f1faee;
+  --color-black: #141D29;
+  --full-white: #f8f8f8;
+  --full-black: #000000;
+
+  --background-header: #DFF2EA;
+  --foreground-header: #303942;
+  --foreground-header-light: #848d97;
+
+  --color-secondary-light: #e75763;
+
+  --hero-overlay: hsla(0, 0%, 0%, 0.3);
+
+  --size-height-header: 23vh;
+  --size-height-home: 77vh;
+
+  --font-family: 'Poppins', sans-serif;
+}

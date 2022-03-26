@@ -1,0 +1,15 @@
+.container--prices {
+  margin-top: 4rem;
+}
+.prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+}
+.price-card {
+  border: 3px solid var(--color-accents);
+  border-radius: 1rem;
+  padding: 4rem;
+  padding-bottom: 3.5rem;
+}

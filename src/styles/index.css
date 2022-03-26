@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+@import "./base/nomalize.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+@import "./base/utils.css";
+
+@import "./layout/header.css";
+@import "./layout/home.css";
+@import "./layout/about.css";
+@import "./layout/form.css";
+@import "./layout/notification.css";
+@import "./layout/location.css";
+@import "./layout/prices.css";

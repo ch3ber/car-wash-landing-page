@@ -1,0 +1,21 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 7rem;
+}
+
+.about__overlay {
+  height: 100%;
+  background-color: var(--hero-overlay);
+}
+
+.about__hero {
+  background-image: url("../../assets/hero-about2.jpg");
+  height: 17rem;
+  background-position: center center;
+  background-size: cover;
+}
+
+.about__title {
+  font-size: 7rem;
+}

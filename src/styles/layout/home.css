@@ -1,0 +1,48 @@
+.container--home {
+  background-color: var(--color-background-light);
+  color: var(--color-white);
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  height: var(--size-height-home);
+  padding: 3rem 7rem;
+  overflow: hidden;
+}
+
+.home__left {
+  padding: 2rem;
+  place-self: start;
+}
+
+.home__title {
+  font-size: 7rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.home__title--focus {
+  color: var(--color-background);
+}
+
+.home__description {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 5.5rem;
+  max-width: 80%;
+}
+
+.home__link {
+  color: var(--color-background);
+  font-weight: 600;
+  border-radius: 10rem;
+  background: var(--color-accents);
+  padding: 1.5rem;
+}
+
+.home__link:hover {
+  transition: background-color 300ms ease-in;
+  background-color: var(--color-primary);
+}
